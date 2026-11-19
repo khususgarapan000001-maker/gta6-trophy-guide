@@ -3,103 +3,82 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Leonida Case File — GTA VI Trophy Guide &amp; Tracker</title>
-<meta name="description" content="A case-file guide and tracker for all 55 Grand Theft Auto VI trophies on PlayStation 5: cited guides, roadmap to platinum, missable flags, saved progress. Works offline.">
+<title>Leonida Dossier — GTA VI Trophy Guide &amp; Tracker</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header class="masthead">
-  <div class="masthead-stamp" aria-hidden="true">CASE FILE<br>No. 55</div>
-  <div class="masthead-title">
-    <p class="kicker">Grand Theft Auto VI &middot; PlayStation 5 &middot; 55 trophies</p>
-    <h1>LEONIDA CASE FILE</h1>
-    <p class="subtitle">The complete trophy guide &amp; tracker — every guide cited, every missable flagged, progress saved in your browser.</p>
+  <div class="mast-left">
+    <div class="stamp">DOSSIER</div>
+    <div>
+      <h1>LEONIDA DOSSIER</h1>
+      <p class="sub">GTA VI Trophy Guide &amp; Tracker — all 55 PlayStation trophies, cited guides, roadmap to platinum</p>
+    </div>
   </div>
-  <div class="ring-wrap" title="Platinum progress">
-    <svg class="ring" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Platinum progress ring">
-      <circle class="ring-track" cx="60" cy="60" r="52"></circle>
-      <circle class="ring-fill" id="ringFill" cx="60" cy="60" r="52"></circle>
+  <div class="mast-ring">
+    <svg viewBox="0 0 120 120" class="ring" aria-label="platinum progress ring">
+      <circle cx="60" cy="60" r="52" class="ring-bg"></circle>
+      <circle cx="60" cy="60" r="52" class="ring-fg" id="ringFg"></circle>
+      <text x="60" y="56" class="ring-num" id="ringNum">0/55</text>
+      <text x="60" y="76" class="ring-pct" id="ringPct">0%</text>
     </svg>
-    <div class="ring-text"><strong id="ringCount">0/55</strong><span id="ringPct">0%</span></div>
-    <p class="ring-label">to platinum</p>
+    <div class="grade-bars" id="gradeBars"></div>
   </div>
-  <div class="grade-bars" id="gradeBars" aria-label="Progress by grade"></div>
+  <div class="mast-actions">
+    <button id="btnExport" type="button">Export progress</button>
+    <label class="import-btn">Import progress<input type="file" id="fileImport" accept="application/json" hidden></label>
+    <button id="btnReset" type="button">Reset</button>
+    <label class="spoiler-toggle"><input type="checkbox" id="chkSpoiler" checked> Hide spoilers</label>
+  </div>
 </header>
 
-<nav class="toolbar" aria-label="Guide controls">
-  <div class="tabs" role="tablist" aria-label="Views">
-    <button class="tab active" data-view="checklist" role="tab" aria-selected="true">Checklist</button>
-    <button class="tab" data-view="roadmap" role="tab" aria-selected="false">Roadmap to Platinum</button>
-    <button class="tab" data-view="missables" role="tab" aria-selected="false">Missables <span class="tab-count" id="missableCount"></span></button>
-  </div>
-  <div class="controls">
-    <label class="search-box"><span class="visually-hidden">Search trophies</span>
-      <input type="search" id="searchInput" placeholder="Search name or description…" autocomplete="off">
-    </label>
-    <label>Kind
-      <select id="kindFilter">
-        <option value="all">All kinds</option>
-        <option value="story">Story</option>
-        <option value="missable">Missable</option>
-        <option value="collectibles">Collectibles</option>
-        <option value="activities">Activities</option>
-        <option value="online">Online</option>
-      </select>
-    </label>
-    <label>Grade
-      <select id="gradeFilter">
-        <option value="all">All grades</option>
-        <option value="platinum">Platinum</option>
-        <option value="gold">Gold</option>
-        <option value="silver">Silver</option>
-        <option value="bronze">Bronze</option>
-      </select>
-    </label>
-    <label>Status
-      <select id="statusFilter">
-        <option value="all">All</option>
-        <option value="earned">Earned</option>
-        <option value="todo">Not earned</option>
-      </select>
-    </label>
-    <label>Sort
-      <select id="sortSelect">
-        <option value="official">Official order</option>
-        <option value="grade">Grade, then name</option>
-        <option value="name">Name A–Z</option>
-      </select>
-    </label>
-    <label class="spoiler-toggle"><input type="checkbox" id="spoilerToggle"> Hide story spoilers</label>
-  </div>
-  <div class="actions">
-    <button id="exportBtn" type="button">Export progress</button>
-    <button id="importBtn" type="button">Import progress</button>
-    <input type="file" id="importFile" accept="application/json,.json" class="visually-hidden" aria-label="Import progress file">
-    <button id="resetBtn" type="button" class="danger">Reset progress</button>
-  </div>
-  <p class="online-note" id="onlineNote" hidden>There are no online trophies in the official list — the online filter shows nothing, honestly.</p>
+<div class="audit" id="auditStrip">Loading dossier…</div>
+
+<div class="nextup" id="nextUp"></div>
+
+<nav class="tabs" id="tabs">
+  <button type="button" data-view="checklist" class="active">Checklist</button>
+  <button type="button" data-view="roadmap">Roadmap · 7 stages</button>
+  <button type="button" data-view="missables">Missables</button>
 </nav>
 
+<section class="toolbar" id="toolbar">
+  <input type="search" id="q" placeholder="Search trophies…" aria-label="Search trophies">
+  <div class="chips" id="kindChips"></div>
+  <select id="gradeFilter" aria-label="Filter by grade">
+    <option value="all">All grades</option>
+    <option value="platinum">Platinum</option>
+    <option value="gold">Gold</option>
+    <option value="silver">Silver</option>
+    <option value="bronze">Bronze</option>
+  </select>
+  <select id="statusFilter" aria-label="Filter by status">
+    <option value="all">All status</option>
+    <option value="todo">Not earned</option>
+    <option value="earned">Earned</option>
+  </select>
+  <select id="sortSel" aria-label="Sort trophies">
+    <option value="roadmap">Sort: roadmap order</option>
+    <option value="grade">Sort: grade</option>
+    <option value="name">Sort: name A–Z</option>
+  </select>
+</section>
+
 <main class="layout">
-  <section class="list-col" aria-label="Trophy list">
-    <p class="list-meta"><span id="listCount"></span> <span id="listHint"></span></p>
-    <div id="trophyList" class="trophy-list"></div>
-
-    <div id="roadmapView" class="roadmap" hidden></div>
-    <div id="missablesView" class="missables" hidden></div>
+  <section class="list-col">
+    <div id="listMeta" class="list-meta"></div>
+    <div id="list"></div>
+    <div id="roadmapView" hidden></div>
+    <div id="missablesView" hidden></div>
   </section>
-
-  <aside class="detail-col" id="detailPane" aria-label="Trophy guide detail" aria-live="polite">
-    <p class="detail-empty">Select a trophy from the list to open its full guide, steps and sources here.</p>
-  </aside>
+  <aside class="detail-col" id="detail"></aside>
 </main>
 
-<footer class="colophon">
-  <p><strong>Sources, on every guide:</strong> trophy names, descriptions and grades come from the official list as published by PlayStation and listed by Exophase and PSNProfiles. Each guide is written in our own words from that official description. Where the official description names no place or step, the guide says so — nothing is invented.</p>
-  <p><strong>Honest limits:</strong> there are no online trophies in the official list. Guides are our own reading of the official descriptions and have not yet been verified inside the game. This guide works fully offline — no network requests, no fonts or images from the web.</p>
-  <p class="fineprint">Leonida Case File is an unofficial fan-made guide. Grand Theft Auto and GTA are trademarks of their owners; no Rockstar logo, artwork or game screenshot is used here. All visuals are drawn with CSS and SVG.</p>
+<footer class="foot">
+  <p>Sources: Exophase official trophy list · PowerPyx GTA 6 Trophy Guide · GTABase — all retrieved 2026-11-19. Trophy names &amp; descriptions shown exactly as PlayStation publishes them; guides are written in our own words. No Rockstar artwork. Difficulty &amp; time are estimates. Progress saves in this browser only (localStorage) — use Export to keep a backup.</p>
+  <p class="stamp-line">EVIDENCE · CASE FILE LEONIDA · OFFLINE — NO NETWORK REQUESTS</p>
 </footer>
 
-<script type="module" src="js/main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
