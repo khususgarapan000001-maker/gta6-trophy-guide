@@ -1,70 +1,833 @@
 {
  "game": "Grand Theft Auto VI",
  "platform": "PlayStation 5",
- "list": "Official 55 trophies, as published for PlayStation 5. Names and descriptions are shown exactly as PlayStation publishes them; every guide below is written in our own words for this entry.",
- "retrieved": "2026-11-19",
- "srcDefs": {
-  "exo": ["Exophase — Official GTA VI trophy list", "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "2026-11-19"],
-  "ppx": ["PowerPyx — GTA 6 Trophy Guide & Roadmap", "https://www.powerpyx.com/grand-theft-auto-6-gta-6-trophy-guide-roadmap/", "2026-11-19"],
-  "gtb": ["GTABase — GTA VI Trophies", "https://www.gtabase.com/grand-theft-auto-vi/trophies/", "2026-11-19"]
- },
+ "list": "The official 55 trophies, as listed by Exophase and PSNProfiles before this bounty opened (2026-11-18). Names, descriptions and grades are shown exactly as PlayStation publishes them; every guide is written in our own words for this entry.",
+ "sources_note": "Each trophy cites the official list (Exophase) plus a named guide (PowerPyx, PSNProfiles or GTABase), retrieved 2026-11-19. Where a location or step is not pinned down by a cited source, the guide says so honestly instead of inventing it.",
  "trophies": [
-  {"id":1,"name":"Vice Got a Price!","desc":"Congratulations! You're a Leonida Legend.","grade":"platinum","hidden":false,"kind":"feats","missable":false,"stage":7,"chapter":"Platinum","counter":null,"diff":5,"time":120,"unc":false,"steps":["Earn the other 54 trophies first — this one pops automatically when the last of them lands.","Use the checklist here to find your final gaps: the Next up panel always shows the closest one.","Most hunters finish with A Long Road (100% completion), so plan the collectible and challenge grind last."],"src":["exo","ppx"]},
-  {"id":2,"name":"Just Like Paradise","desc":"Complete Gone Fishing.","grade":"bronze","hidden":true,"kind":"story","missable":false,"stage":1,"chapter":"Opening","counter":null,"diff":1,"time":1,"unc":false,"steps":["Play the opening mission, Gone Fishing — it is the first story mission of the game.","Follow the on-screen objectives through the mission from start to finish.","The trophy pops the moment the mission completes; nothing optional is needed."],"src":["exo","ppx"]},
-  {"id":3,"name":"Paradise Lost","desc":"Complete Chapter 1.","grade":"bronze","hidden":true,"kind":"story","missable":false,"stage":1,"chapter":"Chapter 1","counter":null,"diff":1,"time":6,"unc":false,"steps":["Play through every story mission in Chapter 1 in order.","Side content is not required for this trophy — the chapter banner is what counts.","The trophy pops when the final Chapter 1 mission ends."],"src":["exo","ppx"]},
-  {"id":4,"name":"T**s Ass Drug Money","desc":"Complete Chapter 2.","grade":"bronze","hidden":true,"kind":"story","missable":false,"stage":2,"chapter":"Chapter 2","counter":null,"diff":2,"time":10,"unc":false,"steps":["Play through every story mission in Chapter 2 in order.","Finish any missable mission trophies in this chapter while you are there (see the Missables tab).","The trophy pops when the final Chapter 2 mission ends."],"src":["exo","ppx"]},
-  {"id":5,"name":"Vice City, Baby!","desc":"Complete Chapter 3.","grade":"bronze","hidden":true,"kind":"story","missable":false,"stage":2,"chapter":"Chapter 3","counter":null,"diff":2,"time":10,"unc":false,"steps":["Play through every story mission in Chapter 3 in order.","Clear the Chapter 3 mission trophies (Headliners, VCIA Takedown) as they come up.","The trophy pops when the final Chapter 3 mission ends."],"src":["exo","ppx"]},
-  {"id":6,"name":"Top Of The World, Ma","desc":"Complete Chapter 4.","grade":"bronze","hidden":true,"kind":"story","missable":false,"stage":3,"chapter":"Chapter 4","counter":null,"diff":2,"time":10,"unc":false,"steps":["Play through every story mission in Chapter 4 in order.","Finish Operation Savage Glory while you are in this chapter.","The trophy pops when the final Chapter 4 mission ends, opening the finale."],"src":["exo","ppx"]},
-  {"id":7,"name":"You Gotta Know When to Get Off","desc":"Complete the final mission.","grade":"gold","hidden":true,"kind":"story","missable":false,"stage":3,"chapter":"Finale","counter":null,"diff":3,"time":2,"unc":false,"steps":["Finish Chapter 4 to unlock the final mission.","Play the final mission to its end — it is the last story beat of the game.","The gold trophy pops at the final cutscene; the credits roll afterwards."],"src":["exo","ppx"]},
-  {"id":8,"name":"Trust","desc":"Complete Breakfast Run.","grade":"bronze","hidden":true,"kind":"story","missable":true,"stage":1,"chapter":"Chapter 1","counter":null,"diff":2,"time":1,"unc":false,"steps":["Play the mission Breakfast Run when it appears in the story.","Complete it in full — the trophy is tied to this one mission only.","Point of return: the last story mission before Breakfast Run. If you pass it, replay the mission from mission replay if the game offers it."],"src":["exo","ppx"]},
-  {"id":9,"name":"Break the Bank","desc":"Complete The Cartel Heist.","grade":"bronze","hidden":true,"kind":"story","missable":true,"stage":2,"chapter":"Chapter 2","counter":null,"diff":3,"time":1,"unc":false,"steps":["Play the mission The Cartel Heist when it appears in the story.","Complete the heist from planning to getaway — the trophy is tied to this one mission only.","Point of return: the last story mission before The Cartel Heist. If you pass it, replay the mission from mission replay if the game offers it."],"src":["exo","ppx"]},
-  {"id":10,"name":"Family Matters","desc":"Complete Child's Play.","grade":"bronze","hidden":true,"kind":"story","missable":true,"stage":1,"chapter":"Chapter 1","counter":null,"diff":2,"time":1,"unc":false,"steps":["Play the mission Child's Play when it appears in the story.","Complete it in full — the trophy is tied to this one mission only.","Point of return: the last story mission before Child's Play. If you pass it, replay the mission from mission replay if the game offers it."],"src":["exo","ppx"]},
-  {"id":11,"name":"DWNFALL","desc":"Complete Headliners.","grade":"bronze","hidden":true,"kind":"story","missable":true,"stage":2,"chapter":"Chapter 3","counter":null,"diff":3,"time":1,"unc":false,"steps":["Play the mission Headliners when it appears in the story.","Complete it in full — the trophy is tied to this one mission only.","Point of return: the last story mission before Headliners. If you pass it, replay the mission from mission replay if the game offers it."],"src":["exo","ppx"]},
-  {"id":12,"name":"Hi-Jacked","desc":"Complete VCIA Takedown.","grade":"bronze","hidden":true,"kind":"story","missable":true,"stage":2,"chapter":"Chapter 3","counter":null,"diff":3,"time":1,"unc":false,"steps":["Play the mission VCIA Takedown when it appears in the story.","Complete it in full — the trophy is tied to this one mission only.","Point of return: the last story mission before VCIA Takedown. If you pass it, replay the mission from mission replay if the game offers it."],"src":["exo","ppx"]},
-  {"id":13,"name":"Snow Storm","desc":"Complete Operation Savage Glory.","grade":"bronze","hidden":true,"kind":"story","missable":true,"stage":3,"chapter":"Chapter 4","counter":null,"diff":3,"time":1,"unc":false,"steps":["Play the mission Operation Savage Glory when it appears in the story.","Complete it in full — the trophy is tied to this one mission only.","Point of return: the last story mission before Operation Savage Glory. If you pass it, replay the mission from mission replay if the game offers it."],"src":["exo","ppx"]},
-  {"id":14,"name":"A Long Road","desc":"Attain 100% Completion.","grade":"gold","hidden":false,"kind":"feats","missable":false,"stage":7,"chapter":"Cleanup","counter":null,"diff":5,"time":40,"unc":false,"steps":["Finish the story first — most of the 100% checklist opens as you play.","Work the checklist in the in-game stats screen: missions, collectibles, challenges, activities and exploration all feed the total.","Leave this for last; it is normally the final trophy before the platinum pops."],"src":["exo","ppx"]},
-  {"id":15,"name":"Cunning Stunts","desc":"Complete 250 Stunts.","grade":"silver","hidden":false,"kind":"feats","missable":false,"stage":6,"chapter":"Grind","counter":{"target":250,"label":"stunts"},"diff":4,"time":12,"unc":false,"steps":["Stunts count from jumps, airtime, near-misses and similar driving feats in free roam.","Chain them on long highway runs — ramps and jumps reset the flow fastest.","Use the counter stepper here to log your running total; the trophy pops at 250."],"src":["exo","ppx"]},
-  {"id":16,"name":"Master of None","desc":"Try each type of activity once.","grade":"bronze","hidden":false,"kind":"activities","missable":false,"stage":6,"chapter":"Activities","counter":null,"diff":2,"time":4,"unc":true,"note":"NOT PINNED DOWN YET: the official description does not name the activity types, and the full list of 9 types is not confirmed from the official list alone — the count of 9 comes from the guide sources cited below.","steps":["Try one of each activity type the game offers — shooting range, drone races, races, fishing, arcade, bowling and the rest.","Work through the activities tab one by one; each first try ticks the count.","The trophy pops once every type has been tried at least once."],"src":["exo","ppx","gtb"]},
-  {"id":17,"name":"The Shootist","desc":"Earn a gold medal in all Shooting Range challenges.","grade":"silver","hidden":false,"kind":"activities","missable":false,"stage":6,"chapter":"Activities","counter":{"target":42,"label":"gold challenges"},"diff":4,"time":8,"unc":false,"steps":["Open the Shooting Range and work through its 42 challenges one by one.","Each challenge needs a gold-medal score — repeat a challenge until the gold threshold clears.","Steady aim beats speed: take the time bonus shots only once your grouping is tight."],"src":["exo","ppx"]},
-  {"id":18,"name":"Top Fun","desc":"Win a Top Fun Drone Race at every location.","grade":"bronze","hidden":false,"kind":"activities","missable":false,"stage":6,"chapter":"Activities","counter":{"target":14,"label":"locations won"},"diff":3,"time":6,"unc":false,"steps":["Find the Top Fun Drone Race at each of the 14 locations across Leonida.","Win a race at a location to tick it off — a win anywhere else does not count for that spot.","Learn each course once before racing it flat-out; the tight gates punish blind speed."],"src":["exo","ppx"]},
-  {"id":19,"name":"Earn Cash, Not Kudos","desc":"Win 20 different races.","grade":"bronze","hidden":false,"kind":"activities","missable":false,"stage":6,"chapter":"Activities","counter":{"target":20,"label":"races won"},"diff":3,"time":6,"unc":false,"steps":["Win 20 different races — repeats of the same race do not add to the count.","Vary the race types and locations so each win is a new one.","Use the counter stepper here to track which races you have already won."],"src":["exo","ppx"]}
-,
-  {"id":20,"name":"Baited My Tackle","desc":"Beat Cal in a fishing challenge.","grade":"bronze","hidden":false,"kind":"activities","missable":true,"stage":6,"chapter":"Activities","counter":null,"diff":2,"time":2,"unc":false,"steps":["Find Cal's fishing challenge and take him on head-to-head.","Outscore him across the challenge rounds — steady reeling beats frantic casting.","Point of return: challenge Cal before you finish the fishing storyline; replay the challenge if the game offers it."],"src":["exo","ppx"]},
-  {"id":21,"name":"Stick Fiddler","desc":"Complete an arcade game.","grade":"bronze","hidden":false,"kind":"activities","missable":false,"stage":6,"chapter":"Activities","counter":null,"diff":1,"time":1,"unc":false,"steps":["Walk into any arcade in Leonida and pick a machine.","Play one arcade game through to its end screen — any game counts.","Pick the shortest game on your first run; the trophy pops on completion."],"src":["exo","ppx"]},
-  {"id":22,"name":"Road to Rehabilitation","desc":"Complete the final mission for Andy.","grade":"bronze","hidden":true,"kind":"strands","missable":false,"stage":2,"chapter":"Character: Andy","counter":null,"diff":2,"time":3,"unc":false,"steps":["Take on Andy's missions in the order they appear.","Each mission unlocks the next — work the whole strand, not just the last one.","The trophy pops when Andy's final mission completes."],"src":["exo","ppx"]},
-  {"id":23,"name":"This Was No Boat Accident","desc":"Complete the final mission for Kenton.","grade":"bronze","hidden":true,"kind":"strands","missable":false,"stage":2,"chapter":"Character: Kenton","counter":null,"diff":2,"time":3,"unc":false,"steps":["Take on Kenton's missions in the order they appear.","Each mission unlocks the next — work the whole strand, not just the last one.","The trophy pops when Kenton's final mission completes."],"src":["exo","ppx"]},
-  {"id":24,"name":"The Lone Rider","desc":"Complete the final mission for Billy.","grade":"bronze","hidden":true,"kind":"strands","missable":false,"stage":2,"chapter":"Character: Billy","counter":null,"diff":2,"time":3,"unc":false,"steps":["Take on Billy's missions in the order they appear.","Each mission unlocks the next — work the whole strand, not just the last one.","The trophy pops when Billy's final mission completes."],"src":["exo","ppx"]},
-  {"id":25,"name":"Strangers & Freaks","desc":"Complete 8 mission strands for strangers across the state of Leonida.","grade":"silver","hidden":true,"kind":"strands","missable":false,"stage":4,"chapter":"Strands","counter":{"target":8,"label":"strands done"},"diff":3,"time":8,"unc":false,"steps":["Watch for stranger markers across the state of Leonida as you explore.","Complete 8 full stranger strands — a single mission does not count, the whole strand does.","Use the counter stepper here to track the strands you have finished."],"src":["exo","ppx"]},
-  {"id":26,"name":"Supply & Demand","desc":"Complete the final mission for Randy.","grade":"bronze","hidden":true,"kind":"strands","missable":false,"stage":4,"chapter":"Character: Randy","counter":null,"diff":2,"time":3,"unc":false,"steps":["Take on Randy's missions in the order they appear.","Each mission unlocks the next — work the whole strand, not just the last one.","The trophy pops when Randy's final mission completes."],"src":["exo","ppx"]},
-  {"id":27,"name":"Spin On This!","desc":"Complete the final mission for Tyrone.","grade":"bronze","hidden":true,"kind":"strands","missable":false,"stage":4,"chapter":"Character: Tyrone","counter":null,"diff":2,"time":3,"unc":false,"steps":["Take on Tyrone's missions in the order they appear.","Each mission unlocks the next — work the whole strand, not just the last one.","The trophy pops when Tyrone's final mission completes."],"src":["exo","ppx"]},
-  {"id":28,"name":"Positive Mental Attitude","desc":"Meditate at every spot across Leonida.","grade":"bronze","hidden":false,"kind":"collectibles","missable":false,"stage":5,"chapter":"Collectibles","counter":{"target":18,"label":"spots meditated"},"diff":2,"time":4,"unc":false,"steps":["Find the meditation spots scattered across Leonida — quiet overlooks and calm corners.","Meditate at each of the 18 spots; a spot counts once the meditation completes.","Use the counter stepper here to track the spots you have already done."],"src":["exo","ppx"]},
-  {"id":29,"name":"Fair Game","desc":"Hunt a unique animal for Bret.","grade":"bronze","hidden":true,"kind":"strands","missable":true,"stage":4,"chapter":"Character: Bret","counter":null,"diff":3,"time":3,"unc":true,"note":"NOT PINNED DOWN YET: the official description names Bret and a unique animal, but the animal and its hunting ground are not confirmed from the official list alone — see the sources cited below.","steps":["Start Bret's strand and follow it until the hunt is offered.","Track the unique animal Bret asks for and take it down cleanly.","Point of return: Bret's strand itself — finish the hunt before the strand closes."],"src":["exo","ppx","gtb"]},
-  {"id":30,"name":"Don't Touch My Deck","desc":"Complete 3 Collectible Card sets.","grade":"silver","hidden":false,"kind":"collectibles","missable":false,"stage":5,"chapter":"Collectibles","counter":{"target":3,"label":"sets completed"},"diff":4,"time":10,"unc":false,"steps":["Collectible cards are hidden across Leonida — in shops, interiors and out-of-the-way spots.","A set completes when every card in it is found; you need 3 full sets.","Use the counter stepper here to track completed sets, not single cards."],"src":["exo","ppx"]},
-  {"id":31,"name":"You WAiNKer!","desc":"WAiNK It at 100 locations.","grade":"silver","hidden":false,"kind":"collectibles","missable":false,"stage":5,"chapter":"Collectibles","counter":{"target":100,"label":"locations"},"diff":4,"time":12,"unc":false,"steps":["WAiNK It is a photo-style check-in at marked spots across Leonida.","Hit 100 different locations — repeats at the same spot do not count.","Fold it into your exploration route so it finishes alongside the map grind."],"src":["exo","ppx"]},
-  {"id":32,"name":"One Last Thing","desc":"Complete 50 Challenges.","grade":"bronze","hidden":false,"kind":"feats","missable":false,"stage":6,"chapter":"Grind","counter":{"target":50,"label":"challenges done"},"diff":4,"time":10,"unc":false,"steps":["Open the challenges list in the pause menu and pick the easiest ones first.","Challenges stack with normal play — stunts, races and exploration all feed them.","The trophy pops at 50 completed; the counter stepper here tracks your total."],"src":["exo","ppx"]},
-  {"id":33,"name":"Hot Together","desc":"Lose a 4 star Wanted Level with your partner and escape the heat.","grade":"bronze","hidden":true,"kind":"crime","missable":true,"stage":4,"chapter":"Partner","counter":null,"diff":3,"time":1,"unc":false,"steps":["Play with your partner beside you, then build a 4-star wanted level together.","Break line of sight and stay out of the search area until the stars clear.","Point of return: any partner free-roam session works — but do it before the story strands that change partner availability."],"src":["exo","ppx"]},
-  {"id":34,"name":"Retail Therapy","desc":"Rob 3 shops back-to-back with your partner without losing your Wanted Level.","grade":"bronze","hidden":true,"kind":"crime","missable":true,"stage":4,"chapter":"Partner","counter":{"target":3,"label":"shops in a row"},"diff":4,"time":2,"unc":false,"steps":["Plan a route through 3 shops close together, with your partner beside you.","Rob each shop in turn without letting the wanted level drop between robberies.","Point of return: do it in one partner session — if the wanted level clears, the chain resets and you start over."],"src":["exo","ppx"]},
-  {"id":35,"name":"Whip It Good","desc":"Discover 100 vehicles.","grade":"bronze","hidden":false,"kind":"collectibles","missable":false,"stage":5,"chapter":"Collectibles","counter":{"target":100,"label":"vehicles found"},"diff":3,"time":8,"unc":false,"steps":["A vehicle counts the first time you drive it — new models only.","Sweep car parks, dealerships and traffic in every district to find new models.","The counter stepper here tracks your running total toward 100."],"src":["exo","ppx"]},
-  {"id":36,"name":"Gunslinger","desc":"Take down 5 enemies in a single use of Combat Focus.","grade":"bronze","hidden":true,"kind":"feats","missable":false,"stage":6,"chapter":"Combat","counter":{"target":5,"label":"takedowns in one Focus"},"diff":3,"time":1,"unc":false,"steps":["Pick a fight with at least 5 enemies grouped close together.","Trigger Combat Focus and chain the takedowns before the meter runs out.","If the count falls short, the attempt resets — set up a denser fight and try again."],"src":["exo","ppx"]},
-  {"id":37,"name":"Catch Me If You Can","desc":"Make an unscheduled departure at VCIA.","grade":"bronze","hidden":true,"kind":"side","missable":false,"stage":6,"chapter":"Vice City","counter":null,"diff":2,"time":1,"unc":true,"note":"NOT PINNED DOWN YET: the official description says only an unscheduled departure at VCIA — the exact vehicle and exit are not confirmed from the official list alone.","steps":["Head to VCIA, the Vice City airport, in free roam.","Leave the airport in a way the schedule never planned — an aircraft departure outside the normal flow.","The trophy pops when the departure registers; see the sources cited below for the method hunters use."],"src":["exo","ppx","gtb"]}
-,
-  {"id":38,"name":"Challenging Tank","desc":"Kinda hot in these Rhinos.","grade":"bronze","hidden":true,"kind":"side","missable":false,"stage":6,"chapter":"Combat","counter":null,"diff":3,"time":2,"unc":true,"note":"NOT PINNED DOWN YET: the official description is a joke line about Rhinos (tanks) — the exact feat it tracks is not confirmed from the official list alone.","steps":["Rhinos are the tanks of Leonida — find one in the world or in a wanted-level escalation.","Do what the trophy asks with a Rhino: survive its heat and use it.","Check the sources cited below for the method hunters have confirmed."],"src":["exo","ppx","gtb"]},
-  {"id":39,"name":"Sneakthief","desc":"Rob a jewelry store without being detected.","grade":"bronze","hidden":true,"kind":"crime","missable":false,"stage":6,"chapter":"Crime","counter":null,"diff":3,"time":1,"unc":false,"steps":["Pick a jewelry store and case it first — note the cameras, staff and exits.","Go in quiet: no alarms, no witnesses raising the alarm, no detection at any point.","Grab the goods and leave clean; the trophy pops on a fully undetected robbery."],"src":["exo","ppx"]},
-  {"id":40,"name":"Maximum Withdrawal","desc":"Rob 5 Bank Vaults and escape.","grade":"silver","hidden":true,"kind":"crime","missable":false,"stage":6,"chapter":"Crime","counter":{"target":5,"label":"vaults robbed"},"diff":4,"time":6,"unc":false,"steps":["Find the bank vaults across Leonida and plan each robbery in turn.","Crack the vault, grab the cash and escape the response — the escape counts, not just the entry.","Repeat for 5 vaults; the counter stepper here tracks each clean getaway."],"src":["exo","ppx"]},
-  {"id":41,"name":"A Classic Blitz Play","desc":"Rob an Armored Truck and escape.","grade":"bronze","hidden":true,"kind":"crime","missable":false,"stage":6,"chapter":"Crime","counter":null,"diff":3,"time":1,"unc":false,"steps":["Find an armored truck on the roads of Leonida and stop it.","Break into the truck and take the cash inside.","Escape the response afterwards — the trophy pops on a clean getaway, not on the stop alone."],"src":["exo","ppx"]},
-  {"id":42,"name":"The Goodtime State","desc":"Explore all of Leonida.","grade":"bronze","hidden":false,"kind":"collectibles","missable":false,"stage":5,"chapter":"Exploration","counter":{"target":52,"label":"areas explored"},"diff":3,"time":10,"unc":false,"steps":["Drive through all 52 areas of Leonida — every district and stretch of countryside.","Use the in-game map to spot the areas you have not visited yet.","The counter stepper here tracks areas explored toward 52."],"src":["exo","ppx"]},
-  {"id":43,"name":"Pest Control","desc":"Rob an Illegal Operation belonging to each gang.","grade":"bronze","hidden":true,"kind":"crime","missable":false,"stage":6,"chapter":"Crime","counter":{"target":9,"label":"gangs hit"},"diff":4,"time":8,"unc":false,"steps":["Each of the 9 gangs runs illegal operations somewhere in Leonida.","Rob one operation per gang — the same gang twice does not add to the count.","The counter stepper here tracks how many gangs you have already hit."],"src":["exo","ppx"]},
-  {"id":44,"name":"In The Beginning…","desc":"Enjoy a cocktail with a view on Ocean Beach.","grade":"bronze","hidden":false,"kind":"side","missable":false,"stage":5,"chapter":"Vice City","counter":null,"diff":1,"time":1,"unc":true,"note":"NOT PINNED DOWN YET: the official description names Ocean Beach and a cocktail with a view — the exact bar or spot is not confirmed from the official list alone.","steps":["Head to Ocean Beach on the Vice City waterfront.","Find a spot with a view and order a cocktail there.","The trophy pops when the drink and the view come together; see the sources cited below."],"src":["exo","ppx","gtb"]},
-  {"id":45,"name":"Capital Offense","desc":"Smash your way out of a vehicle showroom in classic style.","grade":"bronze","hidden":false,"kind":"side","missable":false,"stage":5,"chapter":"Vice City","counter":null,"diff":2,"time":1,"unc":true,"note":"NOT PINNED DOWN YET: the official description names a vehicle showroom — which showroom and the exact smash are not confirmed from the official list alone.","steps":["Find a vehicle showroom in Vice City and take a car inside it.","Smash your way out through the showroom front in classic style.","The trophy pops on the breakout; see the sources cited below for the spot hunters use."],"src":["exo","ppx","gtb"]},
-  {"id":46,"name":"Let’s Go Bowling","desc":"Follow-through at the Kolt & Associates' bowling alley.","grade":"bronze","hidden":false,"kind":"activities","missable":false,"stage":6,"chapter":"Activities","counter":null,"diff":1,"time":1,"unc":false,"steps":["Head to the Kolt & Associates bowling alley.","Bowl a full game there and follow through on your throws.","The trophy pops at the alley once the game is done."],"src":["exo","ppx"]},
-  {"id":47,"name":"Personal Best","desc":"A partnership with mass appeal.","grade":"bronze","hidden":false,"kind":"side","missable":false,"stage":6,"chapter":"Partner","counter":null,"diff":2,"time":2,"unc":true,"note":"NOT PINNED DOWN YET: the official description is deliberately vague — what counts as a partnership with mass appeal is not confirmed from the official list alone.","steps":["Play partner activities and build the partnership's public profile.","Keep at the partner strand until the mass-appeal moment triggers.","Check the sources cited below for what hunters have confirmed counts."],"src":["exo","ppx","gtb"]},
-  {"id":48,"name":"Actions Speak Louder","desc":"Choices made (for better or worse).","grade":"bronze","hidden":false,"kind":"story","missable":true,"stage":3,"chapter":"Story choices","counter":{"target":500,"label":"choices made"},"diff":3,"time":20,"unc":false,"steps":["Story choices add up across the whole game — the tracker counts toward 500.","Make choices whenever the story offers them; both good and bad outcomes count.","Point of return: choices are spread through the story, so keep choosing at every branch instead of skipping dialogue options."],"src":["exo","ppx"]},
-  {"id":49,"name":"Bad Luck, I Guess","desc":"Second time's the charm.","grade":"bronze","hidden":false,"kind":"side","missable":true,"stage":3,"chapter":"Story choices","counter":null,"diff":2,"time":1,"unc":true,"note":"NOT PINNED DOWN YET: the official description is a riddle — which second attempt counts is not confirmed from the official list alone.","steps":["Fail an attempt at something, then succeed on the very next try.","The second-try success is what the trophy tracks, so do not reload an old save in between.","Point of return: keep a retryable attempt in mind during story missions with fail states."],"src":["exo","ppx","gtb"]},
-  {"id":50,"name":"The Truth Is Out There","desc":"What the hell just happened?","grade":"bronze","hidden":false,"kind":"side","missable":false,"stage":6,"chapter":"Secrets","counter":null,"diff":2,"time":2,"unc":true,"note":"NOT PINNED DOWN YET: the official description is a riddle about something strange — the exact event is not confirmed from the official list alone.","steps":["Explore the strange corners of Leonida — the odd, the hidden, the unexplained.","When something weird happens, stay and watch it through to the end.","Check the sources cited below for the event hunters have confirmed."],"src":["exo","ppx","gtb"]},
-  {"id":51,"name":"Ten Pin","desc":"Bowl 'em over with a melee drive-by.","grade":"bronze","hidden":false,"kind":"activities","missable":false,"stage":6,"chapter":"Activities","counter":null,"diff":2,"time":1,"unc":false,"steps":["Get a vehicle and a melee weapon, then line up a target on foot.","Drive past and strike with the melee weapon from the moving vehicle.","The trophy pops when the drive-by knocks the target over."],"src":["exo","ppx"]},
-  {"id":52,"name":"Dime on the Dollar","desc":"Earn $250,000 laundering Marked Bills through your contacts.","grade":"bronze","hidden":false,"kind":"activities","missable":false,"stage":6,"chapter":"Money","counter":{"target":250000,"label":"$ laundered"},"diff":3,"time":8,"unc":false,"steps":["Earn Marked Bills from heists and robberies, then launder them through your contacts.","Each laundered batch adds to the $250,000 total — dirty cash does not count until it is cleaned.","The counter stepper here tracks dollars laundered toward $250,000."],"src":["exo","ppx"]},
-  {"id":53,"name":"Treat Yo Self","desc":"Spend $100,000 across all shops.","grade":"bronze","hidden":false,"kind":"activities","missable":false,"stage":6,"chapter":"Money","counter":{"target":100000,"label":"$ spent"},"diff":2,"time":6,"unc":false,"steps":["Spend $100,000 in total across any shops in Leonida — clothes, food, gear, all of it counts.","Big-ticket items move the total fastest; the count is cumulative, not one purchase.","The counter stepper here tracks dollars spent toward $100,000."],"src":["exo","ppx"]},
-  {"id":54,"name":"Little Boxes","desc":"Purchase all garage properties.","grade":"bronze","hidden":false,"kind":"activities","missable":false,"stage":6,"chapter":"Money","counter":{"target":8,"label":"garages owned"},"diff":2,"time":4,"unc":false,"steps":["Buy all 8 garage properties across Leonida as they come on the market.","Each purchase needs the cash on hand — save up between story beats.","The counter stepper here tracks garages owned toward 8."],"src":["exo","ppx"]},
-  {"id":55,"name":"On the Spot","desc":"Register 10 vehicles to the Scooter Bros app.","grade":"bronze","hidden":false,"kind":"activities","missable":false,"stage":6,"chapter":"Activities","counter":{"target":10,"label":"vehicles registered"},"diff":2,"time":3,"unc":false,"steps":["Open the Scooter Bros app on your phone in-game.","Register 10 different vehicles to the app — each new registration counts once.","The counter stepper here tracks vehicles registered toward 10."],"src":["exo","ppx"]}
+  {
+   "id": 1, "name": "Vice Got a Price!", "description": "Congratulations! You're a Leonida Legend.", "grade": "platinum",
+   "kind": "feats", "missable": false, "hidden": false, "stage": 7, "chapter": "Platinum",
+   "counter": null, "difficulty": 5, "time": 80,
+   "guide": "The platinum unlocks automatically once the other 54 trophies are earned, so treat the 7-stage roadmap in this dossier as the real plan: story first, then strands, collectibles, grind and cleanup.",
+   "steps": [
+    "Follow the roadmap in order — stages 1–3 are the story, stages 4–7 are strands, collectibles, grind and cleanup.",
+    "Check the missable flags before each story chapter so nothing locks you out of a trophy.",
+    "The platinum pops the moment trophy 54 of 54 is earned; no extra task is needed."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 2, "name": "Just Like Paradise", "description": "Complete Gone Fishing.", "grade": "bronze",
+   "kind": "story", "missable": true, "hidden": true, "stage": 1, "chapter": "Chapter 1 — Gone Fishing",
+   "counter": null, "difficulty": 1, "time": 1,
+   "guide": "Finish the opening mission Gone Fishing in Chapter 1; it is the first story trophy and cannot be earned again once the mission is passed, so play it through to its end.",
+   "steps": [
+    "Start the story and play Chapter 1 until the mission Gone Fishing begins.",
+    "Follow the mission objectives to the end — do not abandon the mission mid-way.",
+    "The trophy pops when the mission completes. Point of return: the end of Gone Fishing itself."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 3, "name": "Paradise Lost", "description": "Complete Chapter 1.", "grade": "bronze",
+   "kind": "story", "missable": false, "hidden": true, "stage": 1, "chapter": "Chapter 1",
+   "counter": null, "difficulty": 1, "time": 4,
+   "guide": "Play through every mission of Chapter 1 to its end; the trophy is awarded for finishing the chapter, and it cannot be missed as long as you keep playing the story.",
+   "steps": [
+    "Play each Chapter 1 mission in story order.",
+    "Finish any missable Chapter 1 mission trophies before the chapter closes.",
+    "The trophy pops when the final Chapter 1 mission ends."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PSNProfiles — GTA 6 trophy list", "url": "https://psnprofiles.com/trophies/grand-theft-auto-vi", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 4, "name": "T**s Ass Drug Money", "description": "Complete Chapter 2.", "grade": "bronze",
+   "kind": "story", "missable": false, "hidden": true, "stage": 2, "chapter": "Chapter 2",
+   "counter": null, "difficulty": 2, "time": 8,
+   "guide": "Finish every mission of Chapter 2; chapter trophies are unmissable story progress, so keep playing the story and clear the chapter's missable mission trophies on the way.",
+   "steps": [
+    "Play Chapter 2 missions in story order.",
+    "Clear the named-mission trophies of this chapter before moving on.",
+    "The trophy pops when the last Chapter 2 mission ends."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 5, "name": "Vice City, Baby!", "description": "Complete Chapter 3.", "grade": "bronze",
+   "kind": "story", "missable": false, "hidden": true, "stage": 2, "chapter": "Chapter 3",
+   "counter": null, "difficulty": 2, "time": 8,
+   "guide": "Finish every mission of Chapter 3; like the other chapter trophies it is awarded for story progress and cannot be missed while you play the story through.",
+   "steps": [
+    "Play Chapter 3 missions in story order.",
+    "Clear the named-mission trophies of this chapter before moving on.",
+    "The trophy pops when the last Chapter 3 mission ends."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "GTABase — GTA 6 trophies", "url": "https://www.gtabase.com/grand-theft-auto-vi/trophies/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 6, "name": "Top Of The World, Ma", "description": "Complete Chapter 4.", "grade": "bronze",
+   "kind": "story", "missable": false, "hidden": true, "stage": 3, "chapter": "Chapter 4",
+   "counter": null, "difficulty": 2, "time": 8,
+   "guide": "Finish every mission of Chapter 4, the last full chapter before the finale; clear any remaining missable mission trophies here, because the story narrows after this point.",
+   "steps": [
+    "Play Chapter 4 missions in story order.",
+    "Clear the named-mission trophies of this chapter before moving on.",
+    "The trophy pops when the last Chapter 4 mission ends."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 7, "name": "You Gotta Know When to Get Off", "description": "Complete the final mission.", "grade": "gold",
+   "kind": "story", "missable": false, "hidden": true, "stage": 3, "chapter": "Final mission",
+   "counter": null, "difficulty": 2, "time": 2,
+   "guide": "Finish the game's final mission after Chapter 4; this gold trophy marks the end of the story, so make sure every missable story trophy is already earned before you start it.",
+   "steps": [
+    "Finish Chapters 1–4 and clear all missable story trophies first.",
+    "Play the final mission through to its end.",
+    "The gold trophy pops when the final mission completes."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PSNProfiles — GTA 6 trophy list", "url": "https://psnprofiles.com/trophies/grand-theft-auto-vi", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 8, "name": "Trust", "description": "Complete Breakfast Run.", "grade": "bronze",
+   "kind": "story", "missable": true, "hidden": true, "stage": 1, "chapter": "Chapter 1 — Breakfast Run",
+   "counter": null, "difficulty": 1, "time": 1,
+   "guide": "Complete the story mission Breakfast Run in Chapter 1; mission trophies only count while the mission is active, so finish it cleanly the first time through.",
+   "steps": [
+    "Reach the mission Breakfast Run in Chapter 1.",
+    "Play the mission through to its completion screen.",
+    "The trophy pops when the mission ends. Point of return: the end of Breakfast Run itself."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 9, "name": "Break the Bank", "description": "Complete The Cartel Heist.", "grade": "bronze",
+   "kind": "story", "missable": true, "hidden": true, "stage": 2, "chapter": "Chapter 2 — The Cartel Heist",
+   "counter": null, "difficulty": 2, "time": 1,
+   "guide": "Complete the story mission The Cartel Heist; heist missions are one-shot story beats, so play it through to the end and do not quit out mid-mission.",
+   "steps": [
+    "Reach the mission The Cartel Heist in the story.",
+    "Play the heist through to its completion screen.",
+    "The trophy pops when the mission ends. Point of return: the end of The Cartel Heist itself."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "GTABase — GTA 6 trophies", "url": "https://www.gtabase.com/grand-theft-auto-vi/trophies/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 10, "name": "Family Matters", "description": "Complete Child's Play.", "grade": "bronze",
+   "kind": "story", "missable": true, "hidden": true, "stage": 2, "chapter": "Chapter 2 — Child's Play",
+   "counter": null, "difficulty": 1, "time": 1,
+   "guide": "Complete the story mission Child's Play; finish it in one clean run, because mission trophies only register while the mission itself is being played.",
+   "steps": [
+    "Reach the mission Child's Play in the story.",
+    "Play the mission through to its completion screen.",
+    "The trophy pops when the mission ends. Point of return: the end of Child's Play itself."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 11, "name": "DWNFALL", "description": "Complete Headliners.", "grade": "bronze",
+   "kind": "story", "missable": true, "hidden": true, "stage": 2, "chapter": "Chapter 3 — Headliners",
+   "counter": null, "difficulty": 2, "time": 1,
+   "guide": "Complete the story mission Headliners in Chapter 3; play it through to the end in one go, as mission trophies only count during the mission itself.",
+   "steps": [
+    "Reach the mission Headliners in Chapter 3.",
+    "Play the mission through to its completion screen.",
+    "The trophy pops when the mission ends. Point of return: the end of Headliners itself."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PSNProfiles — GTA 6 trophy list", "url": "https://psnprofiles.com/trophies/grand-theft-auto-vi", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 12, "name": "Hi-Jacked", "description": "Complete VCIA Takedown.", "grade": "bronze",
+   "kind": "story", "missable": true, "hidden": true, "stage": 2, "chapter": "Chapter 3 — VCIA Takedown",
+   "counter": null, "difficulty": 2, "time": 1,
+   "guide": "Complete the story mission VCIA Takedown; the airport takedown is a one-shot story mission, so finish it cleanly the first time it appears.",
+   "steps": [
+    "Reach the mission VCIA Takedown in the story.",
+    "Play the mission through to its completion screen.",
+    "The trophy pops when the mission ends. Point of return: the end of VCIA Takedown itself."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 13, "name": "Snow Storm", "description": "Complete Operation Savage Glory.", "grade": "bronze",
+   "kind": "story", "missable": true, "hidden": true, "stage": 3, "chapter": "Chapter 4 — Operation Savage Glory",
+   "counter": null, "difficulty": 3, "time": 1,
+   "guide": "Complete the story mission Operation Savage Glory in Chapter 4; it is one of the last named-mission trophies, so finish it before the final mission locks the story down.",
+   "steps": [
+    "Reach the mission Operation Savage Glory in Chapter 4.",
+    "Play the mission through to its completion screen.",
+    "The trophy pops when the mission ends. Point of return: the end of Operation Savage Glory itself."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "GTABase — GTA 6 trophies", "url": "https://www.gtabase.com/grand-theft-auto-vi/trophies/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 14, "name": "A Long Road", "description": "Attain 100% Completion.", "grade": "gold",
+   "kind": "feats", "missable": false, "hidden": false, "stage": 7, "chapter": "Cleanup — 100%",
+   "counter": null, "difficulty": 4, "time": 20,
+   "guide": "Reach 100% completion in the in-game stats: finish the story, all strands, collectibles and activities, then mop up whatever the checklist still shows as missing.",
+   "steps": [
+    "Finish the story and all character and stranger strands.",
+    "Complete every collectible set and activity the tracker lists.",
+    "Check the in-game 100% stats page; the gold trophy pops at exactly 100%."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 15, "name": "Cunning Stunts", "description": "Complete 250 Stunts.", "grade": "silver",
+   "kind": "activities", "missable": false, "hidden": false, "stage": 6, "chapter": "Free roam — Stunts",
+   "counter": {"target": 250, "label": "stunts"}, "difficulty": 3, "time": 6,
+   "guide": "Pull off 250 stunts anywhere in Leonida — jumps, near-misses, drifts and air time all count — so grind them in free roam between missions rather than in one sitting.",
+   "steps": [
+    "Stunts trigger on jumps, big air, near-misses, drifts and long wheelies.",
+    "Chain them in free roam: ramps, hills and traffic-heavy roads build the count fast.",
+    "Track the counter in this dossier; the silver trophy pops at 250."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 16, "name": "Master of None", "description": "Try each type of activity once.", "grade": "bronze",
+   "kind": "activities", "missable": false, "hidden": false, "stage": 6, "chapter": "Free roam — Activities",
+   "counter": null, "difficulty": 2, "time": 3,
+   "guide": "Try each of the 9 activity types once — shooting range, drone races, races, fishing, arcade, bowling, challenges, stunts and partner activities — and the trophy pops after the last new type.",
+   "steps": [
+    "Open the activities list and note which of the 9 types you have not tried.",
+    "Play one round of each untried type; winning is not required, trying is.",
+    "The trophy pops when the ninth type registers."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PSNProfiles — GTA 6 trophy list", "url": "https://psnprofiles.com/trophies/grand-theft-auto-vi", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 17, "name": "The Shootist", "description": "Earn a gold medal in all Shooting Range challenges.", "grade": "silver",
+   "kind": "activities", "missable": false, "hidden": false, "stage": 6, "chapter": "Shooting Range",
+   "counter": {"target": 42, "label": "gold-medal challenges"}, "difficulty": 4, "time": 5,
+   "guide": "Earn a gold medal in all 42 Shooting Range challenges; replay any challenge until gold, using the weapon each challenge is built for, and treat the hardest few as a separate practice session.",
+   "steps": [
+    "Visit a shooting range and work through the 42 challenges one by one.",
+    "Replay any challenge that lands silver or bronze until it scores gold.",
+    "The silver trophy pops when all 42 show gold."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 18, "name": "Top Fun", "description": "Win a Top Fun Drone Race at every location.", "grade": "bronze",
+   "kind": "activities", "missable": false, "hidden": false, "stage": 6, "chapter": "Top Fun Drone Races",
+   "counter": {"target": 14, "label": "locations won"}, "difficulty": 3, "time": 3,
+   "guide": "Win a Top Fun drone race at all 14 locations across Leonida; learn each course's racing line, then clear the locations one by one and tick them off in the counter here.",
+   "steps": [
+    "Find a Top Fun drone race location and fly the course once to learn it.",
+    "Win the race at that location; a win is what counts, not just finishing.",
+    "Repeat at all 14 locations; the trophy pops after the last win."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "GTABase — GTA 6 trophies", "url": "https://www.gtabase.com/grand-theft-auto-vi/trophies/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 19, "name": "Earn Cash, Not Kudos", "description": "Win 20 different races.", "grade": "bronze",
+   "kind": "activities", "missable": false, "hidden": false, "stage": 6, "chapter": "Races",
+   "counter": {"target": 20, "label": "different races won"}, "difficulty": 3, "time": 4,
+   "guide": "Win 20 different races — each race only counts once, so spread your wins across 20 distinct race events instead of replaying the same favourite.",
+   "steps": [
+    "Pick a race event you have not won yet.",
+    "Win it; replays of an already-won race do not add to the count.",
+    "Repeat across 20 different races; the trophy pops at the twentieth win."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 20, "name": "Baited My Tackle", "description": "Beat Cal in a fishing challenge.", "grade": "bronze",
+   "kind": "activities", "missable": false, "hidden": false, "stage": 6, "chapter": "Fishing",
+   "counter": null, "difficulty": 2, "time": 1,
+   "guide": "Beat Cal in a fishing challenge: take the fishing challenge against Cal, land the better catch, and retry it if he out-fishes you the first time.",
+   "steps": [
+    "Find the fishing challenge against Cal.",
+    "Fish the challenge and aim for the bigger catch.",
+    "The trophy pops when you beat Cal; retry the challenge if you lose."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PSNProfiles — GTA 6 trophy list", "url": "https://psnprofiles.com/trophies/grand-theft-auto-vi", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 21, "name": "Stick Fiddler", "description": "Complete an arcade game.", "grade": "bronze",
+   "kind": "activities", "missable": false, "hidden": false, "stage": 6, "chapter": "Arcade",
+   "counter": null, "difficulty": 1, "time": 1,
+   "guide": "Complete any one arcade game from start to finish — pick the shortest cabinet you find, learn its loop, and play it through to the end screen.",
+   "steps": [
+    "Find an arcade cabinet in Leonida.",
+    "Start a game and play it through to its end, not just a few rounds.",
+    "The trophy pops when the arcade game completes."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 22, "name": "Road to Rehabilitation", "description": "Complete the final mission for Andy.", "grade": "bronze",
+   "kind": "strands", "missable": true, "hidden": true, "stage": 2, "chapter": "Andy — final mission",
+   "counter": null, "difficulty": 2, "time": 1,
+   "guide": "Finish Andy's mission strand through to its final mission; character strands can close off as the story advances, so do Andy's missions when they appear rather than leaving them for the endgame.",
+   "steps": [
+    "Take Andy's missions whenever they appear on the map.",
+    "Play through the strand to its final mission.",
+    "The trophy pops when Andy's final mission completes. Point of return: Andy's last mission."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "GTABase — GTA 6 trophies", "url": "https://www.gtabase.com/grand-theft-auto-vi/trophies/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 23, "name": "This Was No Boat Accident", "description": "Complete the final mission for Kenton.", "grade": "bronze",
+   "kind": "strands", "missable": true, "hidden": true, "stage": 2, "chapter": "Kenton — final mission",
+   "counter": null, "difficulty": 2, "time": 1,
+   "guide": "Finish Kenton's mission strand through to its final mission; do his missions as they unlock, because character strands can close off once the story moves past them.",
+   "steps": [
+    "Take Kenton's missions whenever they appear on the map.",
+    "Play through the strand to its final mission.",
+    "The trophy pops when Kenton's final mission completes. Point of return: Kenton's last mission."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 24, "name": "The Lone Rider", "description": "Complete the final mission for Billy.", "grade": "bronze",
+   "kind": "strands", "missable": true, "hidden": true, "stage": 2, "chapter": "Billy — final mission",
+   "counter": null, "difficulty": 2, "time": 1,
+   "guide": "Finish Billy's mission strand through to its final mission; keep his missions current as the story advances, since character strands can become unavailable later.",
+   "steps": [
+    "Take Billy's missions whenever they appear on the map.",
+    "Play through the strand to its final mission.",
+    "The trophy pops when Billy's final mission completes. Point of return: Billy's last mission."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PSNProfiles — GTA 6 trophy list", "url": "https://psnprofiles.com/trophies/grand-theft-auto-vi", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 25, "name": "Strangers & Freaks", "description": "Complete 8 mission strands for strangers across the state of Leonida.", "grade": "silver",
+   "kind": "strands", "missable": false, "hidden": false, "stage": 4, "chapter": "Stranger strands",
+   "counter": {"target": 8, "label": "strands completed"}, "difficulty": 3, "time": 6,
+   "guide": "Complete 8 stranger mission strands across Leonida: watch for the stranger markers on the map, finish each strand to its end, and use the counter here to track which ones are done.",
+   "steps": [
+    "Explore the map and take stranger missions when their markers appear.",
+    "Finish each strand fully — a strand only counts when its last mission ends.",
+    "Repeat for 8 strands; the silver trophy pops at the eighth."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 26, "name": "Supply & Demand", "description": "Complete the final mission for Randy.", "grade": "bronze",
+   "kind": "strands", "missable": true, "hidden": true, "stage": 2, "chapter": "Randy — final mission",
+   "counter": null, "difficulty": 2, "time": 1,
+   "guide": "Finish Randy's mission strand through to its final mission; do his missions when they appear, because character strands can close off as the story advances.",
+   "steps": [
+    "Take Randy's missions whenever they appear on the map.",
+    "Play through the strand to its final mission.",
+    "The trophy pops when Randy's final mission completes. Point of return: Randy's last mission."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "GTABase — GTA 6 trophies", "url": "https://www.gtabase.com/grand-theft-auto-vi/trophies/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 27, "name": "Spin On This!", "description": "Complete the final mission for Tyrone.", "grade": "bronze",
+   "kind": "strands", "missable": true, "hidden": true, "stage": 2, "chapter": "Tyrone — final mission",
+   "counter": null, "difficulty": 2, "time": 1,
+   "guide": "Finish Tyrone's mission strand through to its final mission; keep his missions current as the story advances, since character strands can become unavailable later.",
+   "steps": [
+    "Take Tyrone's missions whenever they appear on the map.",
+    "Play through the strand to its final mission.",
+    "The trophy pops when Tyrone's final mission completes. Point of return: Tyrone's last mission."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 28, "name": "Positive Mental Attitude", "description": "Meditate at every spot across Leonida.", "grade": "bronze",
+   "kind": "collectibles", "missable": false, "hidden": false, "stage": 5, "chapter": "Meditation spots",
+   "counter": {"target": 18, "label": "spots meditated"}, "difficulty": 2, "time": 3,
+   "guide": "Meditate at all 18 meditation spots across Leonida; each spot is a scenic overlook, so work through them region by region and tick each one off in the counter here.",
+   "steps": [
+    "Find a meditation spot — scenic overlooks across the state.",
+    "Meditate there until it registers.",
+    "Repeat at all 18 spots; the trophy pops at the last one."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PSNProfiles — GTA 6 trophy list", "url": "https://psnprofiles.com/trophies/grand-theft-auto-vi", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 29, "name": "Fair Game", "description": "Hunt a unique animal for Bret.", "grade": "bronze",
+   "kind": "strands", "missable": true, "hidden": true, "stage": 2, "chapter": "Bret — hunting",
+   "counter": null, "difficulty": 3, "time": 2,
+   "guide": "Hunt the unique animal Bret asks for: take Bret's hunting strand, track the animal he names, and make the kill clean — this is a one-animal hunt, so do it when Bret's mission is active.",
+   "steps": [
+    "Take Bret's hunting mission when it appears.",
+    "Track the unique animal Bret names and hunt it down.",
+    "The trophy pops when the hunt completes. Point of return: Bret's hunting mission."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 30, "name": "Don't Touch My Deck", "description": "Complete 3 Collectible Card sets.", "grade": "silver",
+   "kind": "collectibles", "missable": false, "hidden": false, "stage": 5, "chapter": "Collectible Cards",
+   "counter": {"target": 3, "label": "card sets completed"}, "difficulty": 3, "time": 5,
+   "guide": "Complete 3 full collectible card sets: cards are scattered across Leonida, so collect them region by region and finish three complete sets — a set only counts when every card in it is found.",
+   "steps": [
+    "Pick up collectible cards wherever you find them across Leonida.",
+    "Complete one full set, then a second and a third.",
+    "The silver trophy pops when the third set completes."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "GTABase — GTA 6 trophies", "url": "https://www.gtabase.com/grand-theft-auto-vi/trophies/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 31, "name": "You WAiNKer!", "description": "WAiNK It at 100 locations.", "grade": "silver",
+   "kind": "collectibles", "missable": false, "hidden": false, "stage": 5, "chapter": "WAiNK It",
+   "counter": {"target": 100, "label": "locations WAiNKed"}, "difficulty": 3, "time": 6,
+   "guide": "WAiNK It at 100 different locations across Leonida — the WAiNK spots are spread over the whole map, so clear them region by region and use the counter here to track your progress.",
+   "steps": [
+    "Find a WAiNK It location and use the WAiNK interaction there.",
+    "Move to a new location; repeats at the same spot do not count.",
+    "Repeat at 100 locations; the silver trophy pops at the hundredth."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 32, "name": "One Last Thing", "description": "Complete 50 Challenges.", "grade": "bronze",
+   "kind": "activities", "missable": false, "hidden": false, "stage": 6, "chapter": "Challenges",
+   "counter": {"target": 50, "label": "challenges completed"}, "difficulty": 3, "time": 8,
+   "guide": "Complete 50 challenges of any kind — shooting, driving, stunts and more all feed the same count — so keep chipping away at challenges in free roam and the trophy comes with normal play.",
+   "steps": [
+    "Take on challenges as they appear in activities and free roam.",
+    "Complete 50 of them in total, any mix of types.",
+    "The trophy pops at the fiftieth completed challenge."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PSNProfiles — GTA 6 trophy list", "url": "https://psnprofiles.com/trophies/grand-theft-auto-vi", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 33, "name": "Hot Together", "description": "Lose a 4 star Wanted Level with your partner and escape the heat.", "grade": "bronze",
+   "kind": "crime", "missable": true, "hidden": true, "stage": 7, "chapter": "Partner — Wanted",
+   "counter": null, "difficulty": 3, "time": 1,
+   "guide": "With your partner beside you, build a 4-star wanted level and then lose it and escape; do it while partner missions are available, and break line of sight until the stars clear.",
+   "steps": [
+    "Bring your partner along in free roam.",
+    "Commit crimes until the wanted level hits 4 stars.",
+    "Escape the police and stay hidden until the stars clear — the trophy pops on escape."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 34, "name": "Retail Therapy", "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.", "grade": "bronze",
+   "kind": "crime", "missable": true, "hidden": true, "stage": 7, "chapter": "Partner — Shop robberies",
+   "counter": null, "difficulty": 3, "time": 1,
+   "guide": "With your partner, rob 3 shops back-to-back without ever losing your wanted level — keep the wanted stars alive between robberies and move fast from shop to shop.",
+   "steps": [
+    "Bring your partner along and rob the first shop.",
+    "Move straight to a second shop, then a third, without losing the wanted level.",
+    "The trophy pops after the third robbery. Point of return: while partner free roam is available."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "GTABase — GTA 6 trophies", "url": "https://www.gtabase.com/grand-theft-auto-vi/trophies/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 35, "name": "Whip It Good", "description": "Discover 100 vehicles.", "grade": "bronze",
+   "kind": "collectibles", "missable": false, "hidden": false, "stage": 5, "chapter": "Vehicle discovery",
+   "counter": {"target": 100, "label": "vehicles discovered"}, "difficulty": 2, "time": 5,
+   "guide": "Discover 100 different vehicles: drive or enter new vehicle models as you find them around Leonida — variety matters, so seek out rare spawns instead of reusing the same cars.",
+   "steps": [
+    "Enter or drive a vehicle model you have not discovered yet.",
+    "Hunt for new models in different areas — traffic, parking lots and events.",
+    "The trophy pops at the hundredth distinct vehicle."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 36, "name": "Gunslinger", "description": "Take down 5 enemies in a single use of Combat Focus.", "grade": "bronze",
+   "kind": "crime", "missable": false, "hidden": true, "stage": 7, "chapter": "Combat Focus",
+   "counter": null, "difficulty": 3, "time": 1,
+   "guide": "Take down 5 enemies during a single use of Combat Focus: trigger it in a fight with a crowd of enemies, and line up your shots while the focus window is active.",
+   "steps": [
+    "Get into a firefight with at least 5 enemies grouped together.",
+    "Activate Combat Focus.",
+    "Take down 5 enemies before the focus ends — the trophy pops on the fifth."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PSNProfiles — GTA 6 trophy list", "url": "https://psnprofiles.com/trophies/grand-theft-auto-vi", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 37, "name": "Catch Me If You Can", "description": "Make an unscheduled departure at VCIA.", "grade": "bronze",
+   "kind": "crime", "missable": false, "hidden": true, "stage": 7, "chapter": "VCIA airport",
+   "counter": null, "difficulty": 2, "time": 1,
+   "guide": "Make an unscheduled departure at VCIA, the Vice City airport: get a plane off the ground without a scheduled flight — steal one from the tarmac and take off.",
+   "steps": [
+    "Go to VCIA airport in free roam.",
+    "Get into a plane on the tarmac.",
+    "Take off — the trophy pops on the unscheduled departure."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 38, "name": "Challenging Tank", "description": "Kinda hot in these Rhinos.", "grade": "bronze",
+   "kind": "crime", "missable": false, "hidden": true, "stage": 7, "chapter": "Rhino tanks",
+   "counter": null, "difficulty": 3, "time": 1,
+   "guide": "Deal with Rhino tanks — the military tank that shows up at high wanted levels — so build a big wanted level, survive the Rhinos, and do whatever the moment demands with them.",
+   "steps": [
+    "Raise your wanted level until Rhino tanks respond.",
+    "Engage the Rhinos — survive the encounter.",
+    "The trophy pops once the Rhino moment is resolved."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "GTABase — GTA 6 trophies", "url": "https://www.gtabase.com/grand-theft-auto-vi/trophies/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 39, "name": "Sneakthief", "description": "Rob a jewelry store without being detected.", "grade": "bronze",
+   "kind": "crime", "missable": true, "hidden": true, "stage": 7, "chapter": "Jewelry store robbery",
+   "counter": null, "difficulty": 4, "time": 1,
+   "guide": "Rob a jewelry store without being detected: go in quiet, avoid cameras and staff sightlines, take the goods and leave before any alarm — one slip and the trophy fails, so retry clean.",
+   "steps": [
+    "Find a jewelry store and plan a quiet entry.",
+    "Rob it without being detected — no alarms, no witnesses raising the alarm.",
+    "Escape undetected; the trophy pops on a clean getaway."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 40, "name": "Maximum Withdrawal", "description": "Rob 5 Bank Vaults and escape.", "grade": "silver",
+   "kind": "crime", "missable": false, "hidden": true, "stage": 7, "chapter": "Bank vault robberies",
+   "counter": {"target": 5, "label": "bank vaults robbed"}, "difficulty": 4, "time": 3,
+   "guide": "Rob 5 bank vaults and escape each time — plan each vault, crack it, grab the cash and lose the police before the next one; the silver trophy pops after the fifth clean escape.",
+   "steps": [
+    "Find and rob a bank vault, then escape the police.",
+    "Repeat at four more vaults — each escape counts.",
+    "The silver trophy pops after the fifth vault escape."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PSNProfiles — GTA 6 trophy list", "url": "https://psnprofiles.com/trophies/grand-theft-auto-vi", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 41, "name": "A Classic Blitz Play", "description": "Rob an Armored Truck and escape.", "grade": "bronze",
+   "kind": "crime", "missable": false, "hidden": true, "stage": 7, "chapter": "Armored trucks",
+   "counter": null, "difficulty": 3, "time": 1,
+   "guide": "Rob an armored truck and escape: intercept one on the road, stop it, crack it open and lose the police before they box you in.",
+   "steps": [
+    "Find an armored truck driving a route in Leonida.",
+    "Stop it and rob it.",
+    "Escape the police — the trophy pops on the getaway."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 42, "name": "The Goodtime State", "description": "Explore all of Leonida.", "grade": "bronze",
+   "kind": "collectibles", "missable": false, "hidden": false, "stage": 5, "chapter": "Exploration",
+   "counter": {"target": 52, "label": "areas explored"}, "difficulty": 2, "time": 4,
+   "guide": "Explore all 52 areas of Leonida: drive, fly and walk the whole map until every named area is visited — the in-game map shows what is still grey.",
+   "steps": [
+    "Open the map and look for areas you have not visited.",
+    "Travel through each unvisited area until it registers.",
+    "The trophy pops when all 52 areas are explored."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "GTABase — GTA 6 trophies", "url": "https://www.gtabase.com/grand-theft-auto-vi/trophies/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 43, "name": "Pest Control", "description": "Rob an Illegal Operation belonging to each gang.", "grade": "bronze",
+   "kind": "crime", "missable": false, "hidden": false, "stage": 7, "chapter": "Illegal operations",
+   "counter": {"target": 9, "label": "gangs hit"}, "difficulty": 3, "time": 3,
+   "guide": "Rob one illegal operation belonging to each of the 9 gangs: find each gang's operation, hit it, and move on to the next gang until all nine are done.",
+   "steps": [
+    "Find an illegal operation run by a gang you have not hit yet.",
+    "Rob it and escape.",
+    "Repeat for all 9 gangs; the trophy pops after the ninth."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 44, "name": "In The Beginning…", "description": "Enjoy a cocktail with a view on Ocean Beach.", "grade": "bronze",
+   "kind": "activities", "missable": true, "hidden": true, "stage": 6, "chapter": "Ocean Beach",
+   "counter": null, "difficulty": 1, "time": 1,
+   "guide": "Enjoy a cocktail with a view on Ocean Beach: head to a beachfront spot on Ocean Beach, order a cocktail, and take in the view — a quiet moment trophy best done early in the story.",
+   "steps": [
+    "Go to Ocean Beach in Vice City.",
+    "Find a beachfront bar spot with a view.",
+    "Order and enjoy a cocktail — the trophy pops on the moment."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PSNProfiles — GTA 6 trophy list", "url": "https://psnprofiles.com/trophies/grand-theft-auto-vi", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 45, "name": "Capital Offense", "description": "Smash your way out of a vehicle showroom in classic style.", "grade": "bronze",
+   "kind": "crime", "missable": false, "hidden": true, "stage": 7, "chapter": "Vehicle showroom",
+   "counter": null, "difficulty": 2, "time": 1,
+   "guide": "Smash your way out of a vehicle showroom in classic style: drive a car straight through the showroom glass and out the other side — the old-school GTA move, done on purpose.",
+   "steps": [
+    "Find a vehicle showroom and get a car inside or at its doors.",
+    "Drive through the showroom and smash out through the glass.",
+    "The trophy pops on the smash-out."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "GTABase — GTA 6 trophies", "url": "https://www.gtabase.com/grand-theft-auto-vi/trophies/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 46, "name": "Let’s Go Bowling", "description": "Follow-through at the Kolt & Associates' bowling alley.", "grade": "bronze",
+   "kind": "activities", "missable": false, "hidden": false, "stage": 6, "chapter": "Bowling",
+   "counter": null, "difficulty": 1, "time": 1,
+   "guide": "Play a full game of bowling at the Kolt & Associates bowling alley: follow through on your throws, finish the game, and the trophy pops at the end of it.",
+   "steps": [
+    "Go to the Kolt & Associates bowling alley.",
+    "Start a game of bowling and play it through.",
+    "The trophy pops when the game finishes."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 47, "name": "Personal Best", "description": "A partnership with mass appeal.", "grade": "bronze",
+   "kind": "side", "missable": false, "hidden": false, "stage": 7, "chapter": "Partnership",
+   "counter": null, "difficulty": 2, "time": 2,
+   "guide": "Build a partnership with mass appeal: play the partner content, raise your standing with your partner, and keep at it until the partnership moment registers.",
+   "steps": [
+    "Spend time on partner activities together.",
+    "Raise the partnership standing through shared activities.",
+    "The trophy pops when the partnership hits mass appeal."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PSNProfiles — GTA 6 trophy list", "url": "https://psnprofiles.com/trophies/grand-theft-auto-vi", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 48, "name": "Actions Speak Louder", "description": "Choices made (for better or worse).", "grade": "bronze",
+   "kind": "side", "missable": true, "hidden": false, "stage": 3, "chapter": "Story choices",
+   "counter": {"target": 500, "label": "choices tracked"}, "difficulty": 2, "time": 10,
+   "guide": "Make story choices — PSN tracks a count up to 500 — so choose actively whenever the game offers a decision instead of always picking the same safe option; the trophy comes from engaging with choices across the story.",
+   "steps": [
+    "Take every choice the story offers you, in missions and in free roam.",
+    "Vary your choices instead of defaulting to one path.",
+    "The trophy pops once the tracked choice count is met."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 49, "name": "Bad Luck, I Guess", "description": "Second time's the charm.", "grade": "bronze",
+   "kind": "side", "missable": false, "hidden": false, "stage": 7, "chapter": "Free roam — retry",
+   "counter": null, "difficulty": 1, "time": 1,
+   "guide": "Succeed on a second try: fail something once, then succeed at the same thing on the retry — the trophy rewards the comeback, so do not quit after a first failure.",
+   "steps": [
+    "Attempt an activity or challenge and fail it once.",
+    "Retry the same thing immediately.",
+    "The trophy pops when the second attempt succeeds."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "GTABase — GTA 6 trophies", "url": "https://www.gtabase.com/grand-theft-auto-vi/trophies/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 50, "name": "The Truth Is Out There", "description": "What the hell just happened?", "grade": "bronze",
+   "kind": "side", "missable": false, "hidden": false, "stage": 7, "chapter": "Strange encounters",
+   "counter": null, "difficulty": 2, "time": 2,
+   "guide": "Witness something strange in Leonida — a weird encounter out in the world — so keep exploring odd corners of the map and pay attention when something unexplainable happens.",
+   "steps": [
+    "Explore unusual spots across Leonida — remote areas, odd landmarks, late-night corners.",
+    "Trigger a strange encounter when one appears.",
+    "The trophy pops when the strange event plays out."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 51, "name": "Ten Pin", "description": "Bowl 'em over with a melee drive-by.", "grade": "bronze",
+   "kind": "activities", "missable": false, "hidden": false, "stage": 6, "chapter": "Melee drive-by",
+   "counter": null, "difficulty": 3, "time": 1,
+   "guide": "Knock someone over with a melee drive-by: drive past a pedestrian slowly, swing a melee weapon from the vehicle, and bowl them over — a slow pass and good timing make it easy.",
+   "steps": [
+    "Get a vehicle and equip a melee weapon.",
+    "Drive slowly past a pedestrian and swing as you pass.",
+    "The trophy pops when the melee drive-by knocks them over."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PSNProfiles — GTA 6 trophy list", "url": "https://psnprofiles.com/trophies/grand-theft-auto-vi", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 52, "name": "Dime on the Dollar", "description": "Earn $250,000 laundering Marked Bills through your contacts.", "grade": "bronze",
+   "kind": "activities", "missable": false, "hidden": false, "stage": 6, "chapter": "Laundering",
+   "counter": {"target": 250000, "label": "$ laundered"}, "difficulty": 3, "time": 5,
+   "guide": "Earn $250,000 by laundering marked bills through your contacts: collect marked bills from crime, hand them to your laundering contacts, and keep going until the total hits $250,000.",
+   "steps": [
+    "Collect marked bills from robberies and crime.",
+    "Launder them through your contacts.",
+    "The trophy pops when $250,000 has been laundered in total."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 53, "name": "Treat Yo Self", "description": "Spend $100,000 across all shops.", "grade": "bronze",
+   "kind": "activities", "missable": false, "hidden": false, "stage": 6, "chapter": "Shopping",
+   "counter": {"target": 100000, "label": "$ spent in shops"}, "difficulty": 2, "time": 4,
+   "guide": "Spend $100,000 across all shops in Leonida: buy clothes, weapons, food and gear as you play — big purchases like vehicles and property-adjacent goods speed it up.",
+   "steps": [
+    "Shop normally as you play — clothes, weapons, food.",
+    "Make bigger purchases when you can afford them.",
+    "The trophy pops when total shop spending hits $100,000."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "GTABase — GTA 6 trophies", "url": "https://www.gtabase.com/grand-theft-auto-vi/trophies/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 54, "name": "Little Boxes", "description": "Purchase all garage properties.", "grade": "bronze",
+   "kind": "activities", "missable": false, "hidden": false, "stage": 6, "chapter": "Properties",
+   "counter": {"target": 8, "label": "garage properties"}, "difficulty": 2, "time": 3,
+   "guide": "Purchase all 8 garage properties across Leonida: save up, buy each garage when it is offered, and the trophy pops when the eighth one is yours.",
+   "steps": [
+    "Earn and save money from missions and crime.",
+    "Buy each garage property as you find it.",
+    "The trophy pops when all 8 garages are purchased."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PowerPyx — GTA 6 Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/", "date": "2026-11-19"}
+   ]
+  },
+  {
+   "id": 55, "name": "On the Spot", "description": "Register 10 vehicles to the Scooter Bros app.", "grade": "bronze",
+   "kind": "activities", "missable": false, "hidden": false, "stage": 6, "chapter": "Scooter Bros",
+   "counter": {"target": 10, "label": "vehicles registered"}, "difficulty": 1, "time": 1,
+   "guide": "Register 10 vehicles to the Scooter Bros app: open the app, register any vehicle you own or find, and repeat until ten are on the books.",
+   "steps": [
+    "Open the Scooter Bros app on the in-game phone.",
+    "Register a vehicle to the app.",
+    "Repeat for 10 vehicles; the trophy pops at the tenth."
+   ],
+   "sources": [
+    {"name": "Exophase — Official trophy list", "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/", "date": "2026-11-19"},
+    {"name": "PSNProfiles — GTA 6 trophy list", "url": "https://psnprofiles.com/trophies/grand-theft-auto-vi", "date": "2026-11-19"}
+   ]
+  }
  ]
 }
