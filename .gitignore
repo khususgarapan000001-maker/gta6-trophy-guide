@@ -1,1 +1,5 @@
+# Leonida Dossier — ignore build output and editor junk; keep the entry clean.
 out/
+node_modules/
+.DS_Store
+*.log
